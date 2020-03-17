@@ -207,13 +207,14 @@ div .vision{
             width: 75%;
         }
         .textTwo{
-            width: 95%;
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
-            padding-right:25%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;
         }
-        .servies{
-            width: 75%;
-        }
+
+        
 
 }
